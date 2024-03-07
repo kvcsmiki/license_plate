@@ -2,7 +2,7 @@ import cv2 as cv
 import numpy as np
 from matplotlib import pyplot as plt
 
-img = cv.imread('sample.jpg', cv.IMREAD_GRAYSCALE)
+img = cv.imread('samplefront.jpg', cv.IMREAD_GRAYSCALE)
 assert img is not None, "file could not be read, check with os.path.exists()"
 img2 = img.copy()
 template = cv.imread('template.jpg', cv.IMREAD_GRAYSCALE)
